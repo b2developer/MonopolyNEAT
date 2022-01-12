@@ -235,8 +235,8 @@ namespace MONOPOLY
         {
             BeforeTurn();
 
-            int d1 = random.gen.Next(0, 7);
-            int d2 = random.gen.Next(0, 7);
+            int d1 = random.gen.Next(1, 7);
+            int d2 = random.gen.Next(1, 7);
 
             last_roll = d1 + d2;
 
